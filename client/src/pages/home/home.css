@@ -1,0 +1,57 @@
+.heading{
+    
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.heading h1{
+    font-size: 30px;
+}
+.heading span{
+font-size: 20px;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.container{
+    width: 300px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+span{
+    margin-top: 10px;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 700;
+}
+.model{
+    font-size: 18px;
+}
+.price{
+    font-weight: 700;
+}
+
+.adddelete{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px;
+    color:  rgb(12, 12, 70);
+}
+
+.adddelete span{
+    font-weight: 700;
+}

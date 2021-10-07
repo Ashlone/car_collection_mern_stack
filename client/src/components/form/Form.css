@@ -1,0 +1,46 @@
+body{
+    padding:20px;
+}
+.form-container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+   
+    
+}
+
+.form input{
+    width: 100%;
+}
+
+
+
+.label{
+margin-top: 20px;
+
+
+}
+
+.formButton{
+    margin-top: 20px;
+    background: rgb(12, 12, 70);
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border: none;
+}
+
+.backLink{
+    margin-left:10px;
+    font-size: 22px;
+}
